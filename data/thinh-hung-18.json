@@ -1,0 +1,129 @@
+{
+  "companies": [
+    {
+      "id": "thinh-hung",
+      "name": "CÔNG TY TNHH VẬN TẢI THỊNH HƯNG",
+      "address": "Số 91 đường Quán Trữ, phường Kiến An, thành phố Hải Phòng, Việt Nam",
+      "website": "xebuithaiphong.com.vn"
+    }
+  ],
+
+  "routes": [
+    {
+      "id": "18",
+      "companyId": "thinh-hung",
+
+      "routeNumber": "18",
+
+      "routeName": "Cầu Sông Hóa - Sân Bay Cát Bi",
+
+      "frequencyMinutes": 30,
+
+      "operatingHours": {
+        "outbound": ["05:00", "18:00"],
+        "return": ["06:00", "19:15"]
+      },
+
+      "fares": {
+        "single": 15000,
+        "monthly": 300000,
+        "currency": "VND"
+      },
+
+      "directions": [
+        {
+          "id": "outbound",
+          "name": "Chiều đi",
+          "stops": [
+            {
+              "order": 1,
+              "name": "Cầu sông Hóa"
+            },
+            {
+              "order": 2,
+              "name": "Cầu Chiến Lược"
+            },
+            {
+              "order": 3,
+              "name": "Ngã ba Núi Xẻ"
+            },
+            {
+              "order": 4,
+              "name": "Đường Cái Bèo"
+            },
+            {
+              "order": 5,
+              "name": "Đường Hà Sen"
+            },
+            {
+              "order": 6,
+              "name": "Ngã ba Áng Sỏi (TL356)"
+            },
+            {
+              "order": 7,
+              "name": "UBND xã Xuân Đám"
+            },
+            {
+              "order": 8,
+              "name": "UBND xã Hiền Hào"
+            },
+            {
+              "order": 9,
+              "name": "UBND xã Phù Long"
+            },
+            {
+              "order": 10,
+              "name": "Bến phà Cái Viềng"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "name": "Chiều về",
+          "stops": [
+            {
+              "order": 1,
+              "name": "Bến phà Cái Viềng"
+            },
+            {
+              "order": 2,
+              "name": "UBND xã Phù Long"
+            },
+            {
+              "order": 3,
+              "name": "UBND xã Hiền Hào"
+            },
+            {
+              "order": 4,
+              "name": "UBND xã Xuân Đám"
+            },
+            {
+              "order": 5,
+              "name": "Ngã ba Áng Sỏi (TL356)"
+            },
+            {
+              "order": 6,
+              "name": "Đường Hà Sen"
+            },
+            {
+              "order": 7,
+              "name": "Đường Cái Bèo"
+            },
+            {
+              "order": 8,
+              "name": "Ngã ba Núi Xẻ"
+            },
+            {
+              "order": 9,
+              "name": "Đường Núi Ngọc"
+            },
+            {
+              "order": 10,
+              "name": "Bến tàu khách Trung tâm Cát Bà (đường 1/4)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

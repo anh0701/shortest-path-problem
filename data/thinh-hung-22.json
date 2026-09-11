@@ -1,0 +1,273 @@
+{
+  "companies": [
+    {
+      "id": "thinh-hung",
+      "name": "CÔNG TY TNHH VẬN TẢI THỊNH HƯNG",
+      "address": "Số 91 đường Quán Trữ, phường Kiến An, thành phố Hải Phòng, Việt Nam",
+      "website": "xebuithaiphong.com.vn"
+    }
+  ],
+
+  "routes": [
+    {
+      "id": "22",
+      "companyId": "thinh-hung",
+
+      "routeNumber": "22",
+
+      "routeName": "Cộng Hiền (Vĩnh Hải) - Khu CN VSIP",
+
+      "frequencyMinutes": 30,
+
+      "operatingHours": {
+        "outbound": ["04:45", "17:30"],
+        "return": ["06:05", "19:00"]
+      },
+
+      "fares": {
+        "single": 15000,
+        "monthly": 300000,
+        "currency": "VND"
+      },
+
+      "directions": [
+        {
+          "id": "outbound",
+          "name": "Chiều đi",
+          "stops": [
+            {
+              "order": 1,
+              "name": "Trường mầm non thôn Hà Dương (tạm thời UBND xã Cộng Hiền)"
+            },
+            {
+              "order": 2,
+              "name": "Cầu An Quý xã Vĩnh Hải"
+            },
+            {
+              "order": 3,
+              "name": "Trường PTTP Vĩnh Hải"
+            },
+            {
+              "order": 4,
+              "name": "Ngã tư Cúc Phố"
+            },
+            {
+              "order": 5,
+              "name": "Đường Nguyễn Bỉnh Khiêm (Vĩnh Hải)"
+            },
+            {
+              "order": 6,
+              "name": "Cầu Giao Thông"
+            },
+            {
+              "order": 7,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 8,
+              "name": "Cầu Đăng"
+            },
+            {
+              "order": 9,
+              "name": "Ngã ba Cầu Đầm"
+            },
+            {
+              "order": 10,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 11,
+              "name": "Thị trấn Tiên Lãng"
+            },
+            {
+              "order": 12,
+              "name": "Cầu Khuể"
+            },
+            {
+              "order": 13,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 14,
+              "name": "Ngã năm Kiến An"
+            },
+            {
+              "order": 15,
+              "name": "Đường Trần Thành Ngọ"
+            },
+            {
+              "order": 16,
+              "name": "Đường Lê Quốc Uy"
+            },
+            {
+              "order": 17,
+              "name": "Chợ Bến Phà"
+            },
+            {
+              "order": 18,
+              "name": "Đường Hoàng Thiết Tâm"
+            },
+            {
+              "order": 19,
+              "name": "Đường Lê Duẩn"
+            },
+            {
+              "order": 20,
+              "name": "Đường Trường Chinh"
+            },
+            {
+              "order": 21,
+              "name": "Cầu Niệm"
+            },
+            {
+              "order": 22,
+              "name": "Đường Trần Nguyên Hãn"
+            },
+            {
+              "order": 23,
+              "name": "Ngã tư Nam Kỳ"
+            },
+            {
+              "order": 24,
+              "name": "Đường Nguyễn Đức Cảnh"
+            },
+            {
+              "order": 25,
+              "name": "Cầu Tam Bạc"
+            },
+            {
+              "order": 26,
+              "name": "Nút giao Nam cầu Bính"
+            },
+            {
+              "order": 27,
+              "name": "Cầu Bính"
+            },
+            {
+              "order": 28,
+              "name": "Khu công nghiệp VSIP (đường Máng Nước)"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "name": "Chiều về",
+          "stops": [
+            {
+              "order": 28,
+              "name": "Trường mầm non thôn Hà Dương (tạm thời UBND xã Cộng Hiền)"
+            },
+            {
+              "order": 27,
+              "name": "Cầu An Quý xã Vĩnh Hải"
+            },
+            {
+              "order": 26,
+              "name": "Trường PTTP Vĩnh Hải"
+            },
+            {
+              "order": 25,
+              "name": "Ngã tư Cúc Phố"
+            },
+            {
+              "order": 24,
+              "name": "Đường Nguyễn Bỉnh Khiêm (Vĩnh Hải)"
+            },
+            {
+              "order": 23,
+              "name": "Cầu Giao Thông"
+            },
+            {
+              "order": 22,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 21,
+              "name": "Cầu Đăng"
+            },
+            {
+              "order": 20,
+              "name": "Ngã ba Cầu Đầm"
+            },
+            {
+              "order": 19,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 18,
+              "name": "Thị trấn Tiên Lãng"
+            },
+            {
+              "order": 17,
+              "name": "Cầu Khuể"
+            },
+            {
+              "order": 16,
+              "name": "Tỉnh lộ 354"
+            },
+            {
+              "order": 15,
+              "name": "Ngã năm Kiến An"
+            },
+            {
+              "order": 14,
+              "name": "Đường Trần Thành Ngọ"
+            },
+            {
+              "order": 13,
+              "name": "Đường Lê Quốc Uy"
+            },
+            {
+              "order": 12,
+              "name": "Chợ Bến Phà"
+            },
+            {
+              "order": 11,
+              "name": "Đường Hoàng Thiết Tâm"
+            },
+            {
+              "order": 10,
+              "name": "Đường Lê Duẩn"
+            },
+            {
+              "order": 9,
+              "name": "Đường Trường Chinh"
+            },
+            {
+              "order": 8,
+              "name": "Cầu Niệm"
+            },
+            {
+              "order": 7,
+              "name": "Đường Trần Nguyên Hãn"
+            },
+            {
+              "order": 6,
+              "name": "Ngã tư Nam Kỳ"
+            },
+            {
+              "order": 5,
+              "name": "Đường Nguyễn Đức Cảnh"
+            },
+            {
+              "order": 4,
+              "name": "Cầu Tam Bạc"
+            },
+            {
+              "order": 3,
+              "name": "Nút giao Nam cầu Bính"
+            },
+            {
+              "order": 2,
+              "name": "Cầu Bính"
+            },
+            {
+              "order": 1,
+              "name": "Khu công nghiệp VSIP (đường Máng Nước)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

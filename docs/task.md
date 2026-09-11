@@ -1,8 +1,11 @@
 # Task
 
-## Giai đoạn hiện tại
+## I. Edge
+
+### 1. Giai đoạn hiện tại
 
 ```sh
+Edge:
 
 allowed_vehicles = [
     Vehicle.BUS,
@@ -11,7 +14,7 @@ allowed_vehicles = [
 
 ```
 
-## Giai đoạn sau
+### 2. Giai đoạn sau
 
 - Giai đoạn 2: Khi bắt đầu tính thời gian và chi phí, lúc đó refactor sang `VehicleRule`
 
@@ -37,5 +40,21 @@ edge.vehicle_rules = [
         cost=3000
     )
 ]
+
+```
+
+## II. Thuật toán
+
+```sh
+
+  Graph
+    ↓
+Dijkstra (1 phương tiện)
+    ↓
+    A*
+    ↓
+Multimodal (Bus + Motorbike)
+    ↓
+K-shortest paths (N phương án)
 
 ```
